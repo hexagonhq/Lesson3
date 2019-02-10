@@ -1,0 +1,57 @@
+/*
+Menu
+==============================*/
+.menu {
+    display: inline-block;
+    width: 250px;
+    float: right;
+}
+
+/*
+Menu-item
+==============================*/
+.menu-item {
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+.menu-icon {
+    display: inline-block;
+    background: transparent url("../img/down-arrow.png") no-repeat center/contain;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+    float: right;
+}
+
+/*
+Menu-link
+==============================*/
+.menu-link {
+    display: block;
+    font-size: 18px;
+    color: #323232;
+    padding: 12px;
+}
+
+/*
+Nested-item
+==============================*/
+.menu-nested_item {
+    background-color: #555555;
+    border-bottom: 1px solid #656565;
+}
+
+.menu-nested_link {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px 12px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

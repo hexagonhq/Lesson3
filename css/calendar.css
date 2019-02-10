@@ -1,0 +1,71 @@
+body {
+    background-color: #323232;
+}
+
+/*
+Calendar
+==============================*/
+.calendar {
+    display: inline-block;
+    width: 350px;
+    background-color: #fff;
+    padding: 30px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+/*
+Month-Year
+==============================*/
+.month-year {
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+/*
+Days
+==============================*/
+.days {
+    margin-top: 20px;
+}
+
+.day {
+    display: inline-block;
+    font-size: 18px;
+    color: #E76C6A;
+    margin-left: 19px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+/*
+Number-Days
+==============================*/
+.num-days {
+    margin: 15px 0;
+}
+
+.num-day {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 15px 19px;
+    text-align: center;
+}
+
+.prev-month-day,
+.next-month-day {
+    color: #bbb;
+}
+
+.day-off {
+    color: #39ad39;
+}
+
+.active-day {
+    color: #E76C6A;
+    border-bottom: 1px solid #E76C6A;
+}
